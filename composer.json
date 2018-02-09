@@ -22,20 +22,6 @@
             "homepage": "https://github.com/sonata-project/SonataFormatterBundle/contributors"
         }
     ],
-	"repositories": [
-	    {
-	        "type": "package",
-	        "package": {
-	            "name": "volyty/ckeditor-bundle",
-	            "version": "dev-master",
-	            "source": {
-	                "url": "git://github.com/volyty/IvoryCKEditorBundle.git",
-	                "type": "git",
-	                "reference": "master"
-	            }
-	        }
-	    }
-	],
     "require": {
         "php": "^7.1",
         "volyty/ckeditor-bundle": "dev-master",

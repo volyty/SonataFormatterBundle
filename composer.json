@@ -1,5 +1,5 @@
 {
-    "name": "sonata-project/formatter-bundle",
+    "name": "volyty/formatter-bundle",
     "type": "symfony-bundle",
     "description": "Symfony SonataFormatterBundle",
     "keywords": [
@@ -22,9 +22,15 @@
             "homepage": "https://github.com/sonata-project/SonataFormatterBundle/contributors"
         }
     ],
+	"repositories": [
+	    {
+	        "type": "vcs",
+	        "url": "https://github.com/volyty/SonataFormatterBundle"
+	    }
+	],
     "require": {
         "php": "^7.1",
-        "egeloen/ckeditor-bundle": "^4.0 || ^5.0",
+        "egeloen/ckeditor-bundle": "^4.0 || ^5.0 || ^6.0",
         "knplabs/knp-markdown-bundle": "^1.7",
         "sonata-project/block-bundle": "^3.11",
         "sonata-project/core-bundle": "^3.9",

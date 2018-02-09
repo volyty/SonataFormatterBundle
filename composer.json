@@ -24,13 +24,21 @@
     ],
 	"repositories": [
 	    {
-	        "type": "vcs",
-	        "url": "https://github.com/volyty/SonataFormatterBundle"
+	        "type": "package",
+	        "package": {
+	            "name": "volyty/formatter-bundle",
+	            "version": "dev-master",
+	            "source": {
+	                "url": "git://github.com/volyty/SonataFormatterBundle.git",
+	                "type": "git",
+	                "reference": "master"
+	            }
+	        }
 	    }
 	],
     "require": {
         "php": "^7.1",
-        "egeloen/ckeditor-bundle": "^4.0 || ^5.0 || ^6.0",
+        "volyty/ckeditor-bundle": "^4.0 || ^5.0 || ^6.0",
         "knplabs/knp-markdown-bundle": "^1.7",
         "sonata-project/block-bundle": "^3.11",
         "sonata-project/core-bundle": "^3.9",
